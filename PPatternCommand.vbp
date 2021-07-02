@@ -1,5 +1,5 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
 Form=Forms\FrmBank.frm
 Module=MNew; Modules\MNew.bas
 Class=Account; Classes\Account.cls
@@ -10,6 +10,7 @@ Class=DepositCommand; Classes\DepositCommand.cls
 Class=WithdrawCommand; Classes\WithdrawCommand.cls
 Class=CompositeCommand; Classes\CompositeCommand.cls
 Class=TransferCommand; Classes\TransferCommand.cls
+ResFile32="Resources\MyRes.res"
 IconForm="FrmBank"
 Startup="FrmBank"
 ExeName32="PatternCommand.exe"

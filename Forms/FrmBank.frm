@@ -1,12 +1,13 @@
 VERSION 5.00
 Begin VB.Form FrmBank 
-   Caption         =   "Form1"
-   ClientHeight    =   3570
+   Caption         =   "GoF - Command pattern"
+   ClientHeight    =   3375
    ClientLeft      =   60
    ClientTop       =   405
    ClientWidth     =   5055
+   Icon            =   "FrmBank.frx":0000
    LinkTopic       =   "Form1"
-   ScaleHeight     =   238
+   ScaleHeight     =   225
    ScaleMode       =   3  'Pixel
    ScaleWidth      =   337
    StartUpPosition =   3  'Windows-Standard

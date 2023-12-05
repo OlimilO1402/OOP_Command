@@ -5,6 +5,15 @@ Begin VB.Form FrmBank
    ClientLeft      =   60
    ClientTop       =   405
    ClientWidth     =   5055
+   BeginProperty Font 
+      Name            =   "Segoe UI"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
    Icon            =   "FrmBank.frx":0000
    LinkTopic       =   "Form1"
    ScaleHeight     =   225
@@ -17,15 +26,15 @@ Begin VB.Form FrmBank
       Left            =   2520
       TabIndex        =   11
       Top             =   2640
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnUndo 
       Caption         =   "Undo"
       Height          =   615
-      Left            =   120
+      Left            =   0
       TabIndex        =   10
       Top             =   2640
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnTransfer10fromAcc2toAcc1 
       Caption         =   "Transfer 10.- from acc2 to acc1"
@@ -33,15 +42,15 @@ Begin VB.Form FrmBank
       Left            =   2520
       TabIndex        =   9
       Top             =   2040
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnTransfer10fromAcc1toAcc2 
       Caption         =   "Transfer 10.- from acc1 to acc2"
       Height          =   495
-      Left            =   120
+      Left            =   0
       TabIndex        =   8
       Top             =   2040
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnWithdraw10Acc2 
       Caption         =   "Withdraw 10.- from account 1"
@@ -49,15 +58,15 @@ Begin VB.Form FrmBank
       Left            =   2520
       TabIndex        =   7
       Top             =   1560
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnWithdraw10Acc1 
       Caption         =   "Withdraw 10.- from account 1"
       Height          =   495
-      Left            =   120
+      Left            =   0
       TabIndex        =   6
       Top             =   1560
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnDeposit10Acc2 
       Caption         =   "Deposit 10.- to account 2"
@@ -65,15 +74,15 @@ Begin VB.Form FrmBank
       Left            =   2520
       TabIndex        =   5
       Top             =   1080
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.CommandButton BtnDeposit10Acc1 
       Caption         =   "Deposit 10.- to account 1"
       Height          =   495
-      Left            =   120
+      Left            =   0
       TabIndex        =   4
       Top             =   1080
-      Width           =   2415
+      Width           =   2535
    End
    Begin VB.Label LblAccount2Balance 
       Caption         =   "- - - - -"
